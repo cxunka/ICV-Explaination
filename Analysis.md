@@ -46,6 +46,7 @@ Classify By: Head Shape?
 
 ### Mainly Red: __(Iron Man, Spider Man)__
 Level: __Medium__
+
 Classify By: Icon on chest
 
 Classify By: Secondary Color {Iron Man: Yellow, Spider Man: Blue}
@@ -53,7 +54,7 @@ Classify By: Secondary Color {Iron Man: Yellow, Spider Man: Blue}
 ### Red & Blue: __(Spider Man, Doctor Strange)__ 
 Level: __Difficult__
 
-Classify By: Body Shape
+Classify By: Face Color & Shape
 
 ## Weapon
 ### Shield: __(Captain America, Spider Man)__
@@ -61,8 +62,12 @@ Level: __Easy__
 
 Classify By: Body Color {Captain America: Blue, Spider Man: Red}
 
+## Face
+### White Eyes: __(Iron Man, Spider Man)__
+
 # TradeOff
-- Partial / Global Feature
+## Partial / Global Feature
+Global Feature: Capture overall shape, and resist negative samples
+Partial Feature: Unable to recongnize negative samples.
 - Number of Layers
 - Size of Layers
-- 
